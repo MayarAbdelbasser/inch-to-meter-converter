@@ -1,0 +1,29 @@
+What is string concatenation in JavaScript?
+- It simply adds one or more strings to another string, usually to the end of that string.
+-For example, if you want to concatenate “Hello” and “Joshua”, it becomes “Hello Joshua” by adding Joshua to the end of Hello.
+
+Methods to concatenate strings:-
+1/Using the “+” operator:
+    *In JavaScript, the “+” operator can be used to add strings together.
+    *You can add as many strings as you want.
+
+2/Using the template literals (${``}):
+    *The template literals is a special character in JavaScript that serves various purposes, such as multiline strings, string concatenation, etc.
+    *An ES6 feature, it was introduced in 2015 and is supported in all modern browsers except Internet Explorer.
+    *One major feature, “variable substitution”, allows JavaScript string concatenation.
+
+3/Using the concat() method:
+    *concat() is a built-in method that combines strings in JS.
+    *It adds the new string to the old string and returns the overall string.
+
+4/Using array.join() method:
+    *This will concatenate all the values in an array and return a new string from an array, which by default is separated by a comma.
+    *You can use other string parameters or separators to join the string together.
+
+
+
+parseInt():
+The parseInt() function parses a string argument and returns an integer of the specified radix.
+
+
+*You can find examples in "script.js" file
